@@ -164,6 +164,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="10dp"
                         android:backgroundTint="#2874A6"
+                        android:onClick="GoClases"
                         android:text="Mis clases"
                         app:cornerRadius="25dp" />
                 </TableRow>

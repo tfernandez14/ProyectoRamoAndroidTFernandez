@@ -42,6 +42,11 @@ public class Home_act extends AppCompatActivity {
         i.putExtras(bun);
         startActivity(i);
     }
+    public void GoClases(View view)
+    {
+        Intent i = new Intent(getBaseContext(),Clases_act.class);
+        startActivity(i);
+    }
 
     public void Task(View view)
     {
